@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+
+  vcenter:
+    build: ./images
+    volumes:
+      - ./images/libvirt-metrics.json:/etc/libvirt-metrics.json
+
+ 
